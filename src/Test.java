@@ -5,7 +5,9 @@
  */
 public class Test {
     /*
-    Testet die Klassen Zahlen, Rauminhalt und Fleache.
+    Testet die Klassen Zahlen, Volumen und Fleache.
+    @author Moritz Ruzicka
+    @since 10.11.2016
      */
     public static void main(String[] args){
 
