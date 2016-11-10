@@ -16,6 +16,11 @@ public class Test {
         double erg = v.getRaumInhalt();
         double erg2 = v2.getRaumInhalt();
         double erg3 = v3.getRaumInhalt();
+
+        Flaeche f = new Flaeche(2);
+        Flaeche f2 = new Flaeche(4, 5);
+        Flaeche f3 = new Flaeche(11, 2, 8);
+
     }
 }
 
