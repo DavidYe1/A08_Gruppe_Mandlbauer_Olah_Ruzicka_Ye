@@ -4,4 +4,11 @@
  *
  */
 public class Test {
+    /*
+    Testet die Klassen Zahlen, Rauminhalt und Fleache.
+     */
+    public static void main(String[] args){
+
+    }
 }
+
