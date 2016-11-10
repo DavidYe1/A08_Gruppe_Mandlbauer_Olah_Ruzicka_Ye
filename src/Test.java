@@ -10,7 +10,12 @@ public class Test {
     @since 10.11.2016
      */
     public static void main(String[] args){
-
+        Volumen v = new Volumen(8, 8, 8, 12);
+        Volumen v2 = new Volumen(4, 6, 4);
+        Volumen v3 = new Volumen(7, 10);
+        double erg = v.getRaumInhalt();
+        double erg2 = v2.getRaumInhalt();
+        double erg3 = v3.getRaumInhalt();
     }
 }
 
