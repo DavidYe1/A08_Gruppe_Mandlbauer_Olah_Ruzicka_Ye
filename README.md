@@ -4,10 +4,13 @@ Aufgaben:
 
 Klasse zur Erstellung eines Objektes und Berechnung von Flächen (Rechteck, Kreis und Dreieck)
 Interfache IFlaeche verwenden
+
 Klasse zur Erstellung eines Objektes und Berechnung von Rauminhalten (Quader, Zylinder und Prisma mit dreieckiger Grundfläche)
 Interface IRaumInhalt verwenden
+
 Klasse zur Erstellung eines Objektes und Berechnung von Zahlen (Summe, Maximum und Minimum)
-Interface IZahlen verwenden
+Interface IZahlen
+
 Testklasse für alle anderen Klassen
 Die Aufteilung der Aufgaben im Team ist insoweit frei, dass jeder einen der vier Teile erfüllt.
 
