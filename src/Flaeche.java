@@ -1,6 +1,10 @@
 /**
- * Created by @Author Viktor on 10.11.2016.
+ * Created by @Author Viktor on @version 10.11.2016.
  */
-public class Flaeche {
+public class Flaeche implements IFlaeche {
+    @Override
+    public double getFlaeche() {
+        return 0;
+    }
 
 }
