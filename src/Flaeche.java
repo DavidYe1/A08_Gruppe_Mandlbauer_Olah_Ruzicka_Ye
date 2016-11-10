@@ -8,17 +8,18 @@ public class Flaeche implements IFlaeche {
     public double getFlaeche() {
         return 0;
     }
-    Flaeche(){
-        a = this.a;
-        b = this.b;
-        r = this.r;
-    }
 
     public double Reckteck(double a, double b){
-        double erg = a * b;
-        return erg;
+        double ergR = a * b;
+        return ergR;
     }
 
-    public double Kreis(double r )
-        double erg  = Math.pow(r,2)*Math.PI;
-}
+    public double Kreis(double r ){
+        double ergK  = Math.pow(r,2)*Math.PI;
+        return ergK;
+    }
+
+    public double Dreieck(){
+        double ergD =
+        return ergD;
+    }
