@@ -16,3 +16,4 @@ Zur Aufgabe 4 gehört zusätzlich die Verwaltung des Repository auf Github und d
 Hinweis: Aufgrund des Logs und der Differenzen zum vorigien Commit kann festgestellt werden, wer wann wievieumgesetzt hat!
 
 Viel Erfolgl
+
