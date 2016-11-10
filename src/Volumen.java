@@ -4,21 +4,21 @@
  */
 public class Volumen implements IRaumInhalt {
     private double a, b, c, d;
-    public Volumen(double a, double b, double c, double d){
-        this.a = a;
-        this.b = b;
-        this.c = c;
-        this.d = d;
+    public Volumen(double seite1, double seite2, double seite3, double hoehe){
+        this.a = seite1;
+        this.b = seite2;
+        this.c = seite3;
+        this.d = hoehe;
     }
-    public Volumen(double a, double b, double c){
-        this.a = a;
-        this.b = b;
-        this.c = c;
+    public Volumen(double laenge, double breite, double hoehe){
+        this.a = laenge;
+        this.b = breite;
+        this.c = hoehe;
         this.d = null;
     }
-    public Volumen(double a, double b){
-        this.a = a;
-        this.b = b;
+    public Volumen(double radius, double hoehe){
+        this.a = radius;
+        this.b = hoehe;
         this.c = null;
         this.d = null;
     }
