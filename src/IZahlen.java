@@ -9,4 +9,5 @@ public interface IZahlen {
     public double getMaximum();
 
     public void add(double value);
+
 }
