@@ -21,6 +21,10 @@ public class Test {
         Flaeche f2 = new Flaeche(4, 5);
         Flaeche f3 = new Flaeche(11, 2, 8);
 
+        Zahlen z = new Zahlen();
+        v.add(1.0);
+        v.add(1.0);
+        System.out.println(this.getSumme());
     }
 }
 
