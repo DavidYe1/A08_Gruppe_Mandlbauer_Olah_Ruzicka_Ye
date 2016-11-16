@@ -19,6 +19,11 @@ public class Volumen implements IRaumInhalt {
         a[2] = z3;
         a[3] = z4;
     }
+
+    /**
+     * Methode um den Rauminhalt eines Quaders, Zylinders, oder Prismas zu berechnen
+     * @return double
+     */
     public double getRaumInhalt(){
         if(a[2] == null && a[3] == null){
             Flaeche f = new Flaeche(a[0]);
