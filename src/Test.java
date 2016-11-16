@@ -4,4 +4,27 @@
  *
  */
 public class Test {
+    /*
+    Testet die Klassen Zahlen, Volumen und Fleache.
+    @author Moritz Ruzicka
+    @since 10.11.2016
+     */
+    public static void main(String[] args){
+        Volumen v = new Volumen(8, 8, 8, 12);
+        Volumen v2 = new Volumen(4, 6, 4);
+        Volumen v3 = new Volumen(7, 10);
+        double erg = v.getRaumInhalt();
+        double erg2 = v2.getRaumInhalt();
+        double erg3 = v3.getRaumInhalt();
+
+        Flaeche f = new Flaeche(2);
+        Flaeche f2 = new Flaeche(4, 5);
+        Flaeche f3 = new Flaeche(11, 2, 8);
+
+        Zahlen z = new Zahlen();
+        v.add(1.0);
+        v.add(1.0);
+        System.out.println(this.getSumme());
+    }
 }
+
