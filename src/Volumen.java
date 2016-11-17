@@ -14,31 +14,31 @@ public class Volumen implements IRaumInhalt {
         this.a = laenge;
         this.b = breite;
         this.c = hoehe;
-        this.d = null;
+        this.d = 0;
     }
     public Volumen(double radius, double hoehe){
         this.a = radius;
         this.b = hoehe;
-        this.c = null;
-        this.d = null;
+        this.c = 0;
+        this.d = 0;
     }
     public double prisma(){
-        Flaeche f = new Flaeche(a,b,c);
-        return f.getFlaeche * d;
+        Flaeche f = new Flaeche(b, c);
+        return f.getFlaeche() * d;
     }
     public double quader(){
-        Flaeche f = new Flaeche(a,b);
+        Flaeche f = new Flaeche(b);
         return f.getFlaeche() * c;
     }
     public double zylinder(){
-        Flaeche f = new Flaeche(a);
+        Flaeche f = new Flaeche();
         return f.getFlaeche() * b;
     }
     @Override
     public double getRaumInhalt() {
-        if(c == null && d == null){
+        if (c == 0 && d == 0) {
             return zylinder();
-        }else if(d == null){
+        } else if (d == 0) {
             quader();
         }
         return prisma();

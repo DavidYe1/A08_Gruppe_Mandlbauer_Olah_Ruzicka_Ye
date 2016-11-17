@@ -2,12 +2,12 @@
  * Created by @Autor David Ye on @Version 10.11.2016.
  */
 public interface IZahlen {
-    public double getSumme();
+    double getSumme();
 
-    public double getMinimum();
+    double getMinimum();
 
-    public double getMaximum();
+    double getMaximum();
 
-    public void add(double value);
+    void add(double value);
 
 }

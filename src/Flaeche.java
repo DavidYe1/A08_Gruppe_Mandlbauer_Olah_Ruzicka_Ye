@@ -5,17 +5,17 @@
 public class Flaeche implements IFlaeche {
     private double a, b, c, erg;
     //Konstruktor für Flächeninhalt vom Kreis
-    public Flaeche(double a) {
-        a = this.a;
+    public Flaeche() {
+        double a = this.a;
     }
     //Konstruktor für Flächeninhalt vom Rechteck
-    public Flaeche(double a, double b) {
-        a = this.a;
+    public Flaeche(double b) {
+        double a = this.a;
         b = this.b;
     }
     //Konstruktor für Flächeninhalt vom Dreieck
-    public Flaeche(double a, double b, double c) {
-        a = this.a;
+    public Flaeche(double b, double c) {
+        double a = this.a;
         b = this.b;
         c = this.c;
     }

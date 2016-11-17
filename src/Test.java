@@ -17,9 +17,9 @@ public class Test {
         double erg2 = v2.getRaumInhalt();
         double erg3 = v3.getRaumInhalt();
 
-        Flaeche f = new Flaeche(2);
-        Flaeche f2 = new Flaeche(4, 5);
-        Flaeche f3 = new Flaeche(11, 2, 8);
+        Flaeche f = new Flaeche();
+        Flaeche f2 = new Flaeche(5);
+        Flaeche f3 = new Flaeche(2, 8);
 
         Zahlen z = new Zahlen();
         v.add(1.0);

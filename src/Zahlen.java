@@ -1,3 +1,4 @@
+import java.util.Collections;
 import java.util.LinkedList;
 
 /**
@@ -7,9 +8,11 @@ public class Zahlen implements IZahlen {
 
     public static LinkedList<Double> v = new LinkedList<Double>();
 
-    public Zahlen(LinkedList<Double> v) {
-        v = Zahlen.v;
+    public Zahlen() {
+        LinkedList<Double> v = Zahlen.v;
     }
+
+
     @Override
     public double getSumme() {
         double erg = 0;
@@ -18,14 +21,15 @@ public class Zahlen implements IZahlen {
         }
         return erg;
     }
+
     @Override
     public double getMinimum() {
-        return 0;
+        return Collections.min(v);
     }
 
     @Override
     public double getMaximum() {
-        return 0;
+        return Collections.max(v);
     }
 
     @Override
